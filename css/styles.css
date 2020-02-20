@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+    align-content: center;
+    flex-direction: column;
+}
+body {
+    background-color: #000;
+} 
+p {
+    color: white;
+    font-size: 10px;
+}
+
+*{margin: 0; padding: 0;}
+.container {
+    background: ;
+    width: 500px;
+    height: auto;
+    padding: 10px 5px;
+    margin: auto;
+}
+.banner-sec {
+    background: url('../img/bg1.jpg') no-repeat;
+    height: 400px;
+    width: 800px;
+    margin-left: 5px;
+    color: ;
+    padding: 15px 190px 10px 10px;
+}
+.rg {
+    background: rgba(rgb(226, 44, 44), green, blue, alpha);
+}
+.margin-bit {margin-bottom: 10px;}
