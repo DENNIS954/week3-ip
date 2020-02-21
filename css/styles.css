@@ -1,6 +1,18 @@
 #landingpage {
     background-image: url("../img/bg1.jpg");
 }
-#third {
-    background-image: url("../third.jpg");
+.img-desk {
+    display: flex;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+#conatac {
+    background-image: url(../conta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#conatac input, #conatac textarea {
+    background: transparent;
 }
