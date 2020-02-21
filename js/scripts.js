@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("portfolio div").hover(function(){
-        $(this).find("div").css({"display":"flex"});
+        $(this).find(".img-desk").css({"display":"flex"});
     },function(){
-        $(this).find("div").hide();
+        $(this).find(".img-desk").hide();
     });
 });
