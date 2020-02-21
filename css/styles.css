@@ -16,3 +16,8 @@
 #conatac input, #conatac textarea {
     background: transparent;
 }
+#portfolio #pr:hover {
+border-radius: 2px;
+transition: all .4s;
+margin-top: -1%;
+}
