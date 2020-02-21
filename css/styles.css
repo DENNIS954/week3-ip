@@ -2,13 +2,28 @@
     background-image: url("../img/bg1.jpg");
 }
 .img-desk {
+    position: absolute;
+    top: 0; left: 0;
     display: flex;
     margin: 10px;
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 4px;
     justify-content: center;
     align-items: center;
+    word-wrap: break-word;
+    display: none;
+}
+.img-desk p {
+    font-size: x-large;
+    text-transform: uppercase;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80%;
+    padding: 4px;
+    display: flex;
+    height: 80%;
 }
 #conatac {
     background-image: url(../conta.jpg);
@@ -22,4 +37,7 @@
 border-radius: 2px;
 transition: all .4s;
 margin-top: -1%;
+}
+#footericons img {
+    margin: 10px;
 }
