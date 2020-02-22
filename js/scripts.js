@@ -1,7 +1,8 @@
 $(document).ready(function(){
-    $("portfolio div").hover(function(){
-        $(this).find(".img-desk").css({"display":"flex"});
+    $(".col-md-3#pr").hover(function(){
+        $(this).find(".img-desk p").css("display","flex");
+        //alert("in")
     },function(){
-        $(this).find(".img-desk").hide();
+        $(this).find(".img-desk p").hide();
     });
 });
